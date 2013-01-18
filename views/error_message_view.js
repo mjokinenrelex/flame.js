@@ -1,7 +1,8 @@
 //= require ./label_view
 Flame.ErrorMessageView = Flame.LabelView.extend({
     classNames: 'flame-form-view-validation-error'.w(),
-    classNameBindings: 'pointToClass',
+    classNameBindings: 'pointToClass skinny'.w(),
+    skinny: false,
     pointTo: 'left',
     textAlign: function() {
         return this.get('pointTo') === 'left' ? Flame.ALIGN_LEFT : Flame.ALIGN_RIGHT;

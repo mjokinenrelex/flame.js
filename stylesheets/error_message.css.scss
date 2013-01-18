@@ -16,6 +16,14 @@
         background-image: image-url('images/error_triangle_left.png');
         float: left;
     }
+    &.skinny.points-to-left .pointer {
+        margin-top: 0px;
+        background-image: image-url('images/error_triangle_left_skinny.png');
+    }
+    &.skinny.points-to-right .pointer {
+        margin-top: 0px;
+        background-image: image-url('images/error_triangle_right_skinny.png');
+    }
     .error-box {
         line-height: 28px;
         background-color: #cd443d;
@@ -32,5 +40,10 @@
         margin: 3px 3px 3px 14px;
         padding: 0px 10px 0px 6px;
         border-radius: 0px 3px 3px 0px;
+    }
+    &.skinny .error-box {
+        height: 22px;
+        margin-top: 0px;
+        line-height: 22px;
     }
 }

@@ -2,6 +2,7 @@
 
 /* This is outside the form-view element, so we can't use it as parent selector */
 .flame-form-view-validation-error {
+    z-index: 1;
     .pointer {
         margin: 3px 0px 3px 0px;
         width: 14px;
